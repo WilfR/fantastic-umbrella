@@ -27,6 +27,11 @@ function UmbrellaController($scope,$filter,customFilter)
 	$scope.biteMe = function() {
 		return "Bite Me!"; 
 	}
+	
+	$scope.changed = function() { 
+	    console.log( 'changed function called' ); 
+	}
+	
 } 
 
 angular.module('FantasticUmbrellaApp',[])

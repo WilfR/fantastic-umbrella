@@ -10,7 +10,7 @@
   <body>
     <h1>Fantastic Umbrella App</h1>
 	<div ng-controller="UmbrellaController"> 
-	   Enter name: <input type="text" ng-model="name" ng-keyup="displayNumeric()" ng-blur = "upper()"> 
+	   Enter name: <input type="text" ng-model="name" ng-keyup="displayNumeric()" ng-blur = "upper()" ng-change="changed()"> 
 	   
 	   <div> Value : {{value}} </div> 
 	   <div> Upper name : {{name | custom}}
